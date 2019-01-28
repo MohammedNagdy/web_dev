@@ -64,7 +64,7 @@ body {
 .caption h2 {
   font-size: 3rem;
   font-weight: 800;
-  text-shadow: 2rem, 4rem, 0.8rem, black;
+  text-shadow: 4rem 4rem 4rem black;
   padding-bottom: None;
 }
 
@@ -104,3 +104,26 @@ body {
   text-align: left;
   text-transform: none ;
 }
+
+/* the fade in method */
+/*
+@-webkit-keyframes fadeIn {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes fadeIn {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fadeIn {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+.card {
+  -webkit-animation: fadeIn 1s forwards;
+  -moz-animation: fadeIn 1s forwards;
+  animation: fadeIn 1s forwards;
+}*/
