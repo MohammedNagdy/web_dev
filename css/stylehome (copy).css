@@ -1,0 +1,60 @@
+/* style the home page */
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
+/*
+body {
+  background-attachment: scroll;
+  scroll-behavior: smooth;
+  font-family: "Sigmar One";
+  color: #3a3a3a;
+} */
+
+.navbar-brand {
+  padding: 0;
+  margin: 0;
+}
+
+/* Naviagation bar */
+
+.navbar {
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 26.4px;
+  font-weight: 1000;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  background-color: #305051A6!important;
+}
+
+.navbar-brand img {
+   height: 8rem;
+}
+
+.navbar-nav li {
+  padding-right: .9rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding: 0.7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active ,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #7f4c2c;
+}
+
+.landing {
+  height: 100%;
+}
+
+#first {
+  background-color: red;
+  height: 100%;
+}
+#second{
+  background-color: blue;
+  height: 100%;
+}

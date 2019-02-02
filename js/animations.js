@@ -15,11 +15,27 @@ function fadeIn(element){
     target.style.opacity = 1;
     clearTimeout(loopTimer);
     fadeInFrom = 0;
-    return False;
+    return false;
   }
-  
-  var loopTimer = setTimeout('fadeIn(\''+element+'\')',100)
+
+  var loopTimer = setTimeout('fadeIn(\''+element+'\')',100);
 
 }
 
 fadeIn("first-panel")
+
+// animate scrolling
+var links = document.querySelectorAll(".nav-items");
+console.log(links[1]);
+
+function scrollHorizontal(e) {
+  if (e.target !== e.currentTarget){
+    alert("yaoo this's been clicked");
+    console.log('action');
+  }
+}
+
+// listen to click on the navbar to move to another page
+// for(i=0; i<links.length; i++){
+  links.addEventListener("click", scrollHorizontal, false);
+// }

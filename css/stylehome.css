@@ -1,17 +1,19 @@
 /* style the home page */
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
 
+html {
+  height: 100%;
+}
 
 body {
   background-image: url("../images/champanzee.jpg");
-  width: 100%;
-  height: 100%;
   display: block;
+  background-attachment: fixed;
   background-size: auto;
-  background-attachment: scroll;
-  overflow-x: hidden;
   font-family: "Sigmar One";
   color: #3a3a3a;
+  height: 100%;
+  width: 100%;
 }
 
 .navbar-brand {
@@ -46,16 +48,16 @@ body {
   padding: 0.7rem;
 }
 
-.navbar-dark .navbar-nav .nav-link.active ,
+.navbar-dark .navbar-nav .nav-link:active ,
 .navbar-dark .navbar-nav .nav-link:hover {
   color: #7f4c2c;
 }
 
 .caption {
   width: 100%;
+  height: 100%;
   max-width: 100%;
-  position: absolute;
-  top: 30%;
+  margin-top: 20%;
   z-index: 1;
   color: white;
   text-transform: uppercase;
@@ -68,9 +70,34 @@ body {
   padding-bottom: None;
 }
 
+
 .btn {
   margin-bottom: 20px;
 }
+
+/* the styling for the slide-show container */
+
+.main-container {
+  height: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.home-wrap {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+/* the home page styling */
+#home {
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+}
+
 /* the about panel */
 
 .card {
@@ -127,3 +154,34 @@ body {
   -moz-animation: fadeIn 1s forwards;
   animation: fadeIn 1s forwards;
 }*/
+
+/*home page styling ends */
+
+/* the article page */
+#article  {
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+
+}
+
+
+/*contacr */
+#contact {
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+
+}
+
+
+#content-panel {
+  background-color: white;
+  text-decoration-color: black;
+  height: 100%;
+  width: 100%;
+
+}
+
+
+/*test */
